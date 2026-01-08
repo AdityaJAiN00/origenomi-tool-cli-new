@@ -17,17 +17,7 @@ pip install -e .
 
 ### Full pipeline
 ```bash
-origami run -i genome.fna --dnaA-db /path/new_dnaA_DB --oric-db /path/DoriC_DB
-```
-
-### Trim only
-```bash
-origami trim -i genome.fna
-```
-
-### OriC only (no trim)
-```bash
-origami oric -i genome.fna --dnaA-db /path/new_dnaA_DB --oric-db /path/DoriC_DB
+origenomi run -i <input.fna> -o <output_prefix> [--keep-temp] [--keep-temp]
 ```
 
 ## Outputs
